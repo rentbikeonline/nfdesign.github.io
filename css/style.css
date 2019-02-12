@@ -1,0 +1,114 @@
+.navbar-header {
+  float: none;
+}
+
+.navbar-toggle {
+  display: block;
+}
+
+.navbar-collapse.collapse {
+  display: none!important;
+}
+
+.navbar-nav {
+  float: none!important;
+}
+
+.navbar-nav>li {
+  float: none;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.bor_full {
+  border: none !important;
+}
+
+.navbar-inverse {
+  background-color: #000;
+  border-color: #000;
+}
+
+a.navbar-brand {
+  background-image: url(../images/logo.png);
+  width: 16%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 81% 97%;
+}
+
+.wrapper {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
+
+.about_img {
+  margin: -77px 0px 0px 0px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.carousel-caption {
+  right: 50%;
+  left: 19%;
+  padding-bottom: 11%;
+}
+
+.carousel-caption h3 {
+  display: -webkit-box;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  display: -webkit-box;
+  font-size: 40px;
+}
+
+.full_container {
+  background: #ffff;
+  margin: 120px 0px 0px -174px;
+}
+
+.full_container h2 {
+  color: #ed562a;
+}
+
+.full_container .btn {
+  background: #ed562a;
+  color: #fff;
+  border-radius: 23px;
+  width: 130px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.full_container span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ed562a;
+}

@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+  a.navbar-brand {
+    width: 50%;
+  }
+  .carousel-caption {
+    right: 20%;
+    left: 19%;
+    padding-bottom: 66%;
+  }
+  .carousel-caption h3 {
+    font-size: 62px;
+    text-align: -webkit-center;
+  }
+  .carousel-caption p {
+    font-size: 19px;
+    text-align: -webkit-center;
+  }
+  .full_container{margin:0px;}
+}
