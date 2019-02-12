@@ -1,3 +1,11 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, {
+  font-family: 'Signika Negative', sans-serif;
+}
 .navbar-header {
   float: none;
 }
@@ -45,6 +53,12 @@ a.navbar-brand {
   background-size: cover;
   height: -webkit-fill-available;
 }
+section.Residential {
+    background-image: url(../images/residue.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: -webkit-fill-available;
+}
 
 .about_img {
   margin: -77px 0px 0px 0px;
@@ -62,15 +76,7 @@ a.navbar-brand {
   background-image: none !important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  font-family: 'Signika Negative', sans-serif;
-}
+
 
 .carousel-caption {
   right: 50%;
@@ -111,4 +117,31 @@ p {
   font-size: 22px;
   font-weight: bold;
   color: #ed562a;
+}
+
+hr.divider{
+    max-width: 2.25rem;
+    border-width: 4px;
+    border-color: #ed562a;
+}
+.text-uppercase{
+  text-transform: capitalize;
+    font-size: 43px;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 12px;
+   letter-spacing: 3px;
+}
+
+p.text-white-75 {
+    color: #fff;
+    font-size: 16px;
+}
+.btn{
+  background: #ed562a;
+  color: #fff;
+  border-radius: 23px;
+  width: 130px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
