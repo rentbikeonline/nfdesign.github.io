@@ -57,7 +57,9 @@ section.Residential {
     background-image: url(../images/residue.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: -webkit-fill-available;
+    height: 400px;
+    margin-top: 5%;
+ 
 }
 
 .about_img {
@@ -145,3 +147,46 @@ p.text-white-75 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.full_section{
+  background: #ed562a;
+    width: 82%;
+    height: 190px;
+    margin: 56% 0px 0px 64%;
+    z-index: 999;
+    position: relative;
+}
+ .full_section h2 {
+    color: #fff;
+    margin: 77px 0px 4px 84px;
+    text-align: justify;
+    position: absolute;
+    font-size: 38px;
+  }
+
+  .h-20{
+    margin-top: 5%;
+  }
+
+  .info_nafeesa{
+    background:#f7f7f7;
+  }
+
+  span.glyphicon {
+    color: #ed562a;
+}
+
+.info_nafeesa h2{
+    font-size: 35px;
+    color: #ed562a;
+    font-weight: bold;
+}
+
+.info_nafeesa h4{
+    font-size: 33px;
+    color: #ed562a;
+}
+
+.info_nafeesa h5{
+    text-transform: uppercase;
+    font-weight: bold;
+  }

@@ -3,9 +3,9 @@
     width: 50%;
   }
   .carousel-caption {
-    right: 20%;
-    left: 19%;
-    padding-bottom: 66%;
+    right: 0%;
+    left: -1%;
+    position: relative;
   }
   .carousel-caption h3 {
     font-size: 62px;
@@ -16,5 +16,5 @@
     text-align: -webkit-center;
   }
   .full_container{margin:0px;}
-  section.Residential{background-size: cover;}
+  section.Residential{background-size: cover;height:100%;}
 }
