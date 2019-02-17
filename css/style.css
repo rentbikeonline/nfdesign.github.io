@@ -158,9 +158,8 @@ p.text-white-75 {
  .full_section h2 {
     color: #fff;
     margin: 77px 0px 4px 84px;
-    text-align: justify;
     position: absolute;
-    font-size: 38px;
+    font-size: 30px;
   }
 
   .h-20{
@@ -189,4 +188,30 @@ p.text-white-75 {
 .info_nafeesa h5{
     text-transform: uppercase;
     font-weight: bold;
+  }
+.page-footer{
+    width: 100%;
+    background-color: #000000d4;
+    position: relative;
+    bottom: 0;
+    height: 82px;
+  }
+.page-footer p{
+    color: #fff;
+     margin-top: 25px;
+  }
+
+  .page-footer span{
+    color: #ed562a;
+  }
+  .Copyright{
+    float: left; 
+  }
+
+  .Copyright h5{
+    color: #fff;
+  }
+  .social_icon{
+    margin-top: 25px;
+     float: right; 
   }

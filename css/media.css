@@ -17,4 +17,7 @@
   }
   .full_container{margin:0px;}
   section.Residential{background-size: cover;height:100%;}
+  .page-footer{height: auto;}
+  .Copyright{float: none;}
+  .social_icon{float: none;}
 }
